@@ -2,7 +2,7 @@
 function theBeatlesPlay(musicians, instruments) {
   var arr = [];
   for ( var i = 0; i < musicians.length; i++ ) {
-    emptyArry.push(`${musicians[i]} plays ${instruments[i]}`);
+    emptyAry.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   
   return arr;
@@ -11,6 +11,7 @@ function theBeatlesPlay(musicians, instruments) {
 /*Create a function johnLennonFacts. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):*/
 function johnLennonFacts(factsArr) {
   var resultFacts = [];
+  var i = 0;
   while ( i < factsArr.length ) {
     resultFacts.push(factsArr[i++] + "!!!");
   }
