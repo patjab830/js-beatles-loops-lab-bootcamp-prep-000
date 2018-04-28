@@ -7,6 +7,7 @@ function theBeatlesPlay(musicians, instruments) {
   return arr;
 }
 
+/*Create a function johnLennonFacts. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):*/
 function johnLennonFacts(factsArr) {
   var resultFacts = [];
   while ( i < factsArr.length ) {
